@@ -20,7 +20,7 @@ function fuzzyMatch(array, string) {
 };
 // console.log(fuzzyMatch(drivers, "B"));
 function matchName(array, arrayName) {
-    return array.filter((banana) => banana.name === arrayName);
+    return array.filter((firstName) => firstName.name === arrayName);
     
 };
 const drivers = [
